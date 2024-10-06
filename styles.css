@@ -2,7 +2,7 @@ html{
     font-family: helvetica;
     background-color: rgb(252, 250, 250);
     color: black;
-    background-image: url('img/Rock.jpg');
+    background-image:url('img/Rock.jpg');
 }
 .container{
     max-width: 1100PX;
