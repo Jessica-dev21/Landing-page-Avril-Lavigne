@@ -121,8 +121,9 @@ border-bottom: 1px dashed #fff;
         text-align: center;
     }
 
-    .curiosties-container li{
-        margin-bottom: 16px;
+    .curiosties-container ul, li{
+        margin-bottom: 38px;
+       
     }
     }
 
