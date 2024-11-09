@@ -134,6 +134,50 @@ border-bottom: 1px dashed #fff;
     }
     }
 
+@media screen and (max-width: 884px) {
+    
+    .container {
+        padding: 10px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .biography-container,
+    .quotes-container,
+    .curiosties-container {
+        max-width: 100%;
+        margin: 10px;
+    }
+    .biography-container h2{
+        text-align: center;
+    }
+
+    .curiosties-container h2{
+        text-align: center;
+    }
+    .img-bold img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .morienfo-container h2{
+        text-align: center;
+    }
+    .morienfo-container p{
+        text-align: center;
+    }
+
+    .curiosties-container ul, li{
+        margin-bottom: 38px;
+       
+    }
+}
+
 /* Responsividade para telas muito pequenas */
 
 @media screen and (max-width: 480px) {
