@@ -86,3 +86,62 @@ border-bottom: 1px dashed #fff;
     font-weight: bold;
     text-align: center;
 }
+
+/* Responsividade para telas menores */
+
+
+@media screen and (max-width: 768px) {
+    
+    .container {
+        padding: 10px;
+    }
+
+    .biography-container,
+    .quotes-container,
+    .curiosties-container {
+        max-width: 100%;
+        margin: 10px;
+    }
+    .biography-container h2{
+        text-align: center;
+    }
+
+    .curiosties-container h2{
+        text-align: center;
+    }
+    .img-bold img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .morienfo-container h2{
+        text-align: center;
+    }
+    .morienfo-container p{
+        text-align: center;
+    }
+
+    .curiosties-container li{
+        margin-bottom: 16px;
+    }
+    }
+
+/* Responsividade para telas muito pequenas */
+
+@media screen and (max-width: 480px) {
+    
+.curiosidades-card {
+padding: 20px;
+    }
+    
+    }
+   /* Responsividade para telas muito pequenas  texto*/
+h2 {
+        font-size: 25px;
+    }
+
+li {
+      
+font-size: 15px;
+    }
+ 
